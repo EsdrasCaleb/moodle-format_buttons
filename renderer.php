@@ -35,7 +35,7 @@ require_once($CFG->dirroot.'/course/format/topics/renderer.php');
  * @copyright  2020 Rodrigo Brandão <rodrigo.brandao.contato@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class format_buttons_renderer extends format_topics_renderer
+class format_buttons_renderer extends format_topics\output\renderer
 {
 
     /**
